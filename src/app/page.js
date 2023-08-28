@@ -11,9 +11,7 @@ import {
   Divider,
 } from "@mantine/core";
 
-
 export default function FoodReviewPage() {
-
   return (
     <>
       <Container size="600px">
@@ -24,10 +22,10 @@ export default function FoodReviewPage() {
         <Rating size="lg" />
         <Textarea
           size="sm"
-          label="Your Review"
+          label="Your review"
           placeholder="Do you enjoy eating?"
-          mt={"sm"}
-          minRows={'3'}
+          mt={"xs"}
+          minRows={"3"}
         />
         <Button color="orange" mt={"xs"} size="sm">
           Submit Review
@@ -48,7 +46,7 @@ export default function FoodReviewPage() {
         <Text align="center" color="dimmed">
           My favourite part is pepperoni
         </Text>
-        <Pagination total={20} color="orange" position="center" mt={'sm'}/>
+        <Pagination total={20} color="orange" position="center" mt={"md"} />
         <Text align="center" color="dimmed" my="sm">
           Copyright © 2023 Natthapon Chanaveroj 650612082
         </Text>
